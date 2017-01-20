@@ -1,0 +1,156 @@
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			input{
+				display: none;
+				/*隐藏input*/
+			}
+			.swiper{
+				width: 100%;
+				height: 280px;
+				position: absolute;
+				left: 0;
+				/*top: 106px;*/
+				/*将整个父元素进行绝对定位*/
+			}
+			
+			.all_img{
+				position: relative;
+				height: 280px;
+			}
+			
+			.all_img div {
+				width: 100vw;
+				height: 280px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			.img1{
+				background: url(../img/swiper1.png) no-repeat center center #FFF9DC;
+			}
+			.img2{
+				background: url(../img/swiper2.jpg) no-repeat center center #16B0F6;
+			}
+			.img3{
+				background: url(../img/swiper3.jpg) no-repeat center center #FFF0AF;
+			}
+			
+			.change{
+				width: 100%;
+				height: 280px;
+				position: absolute;
+				left: 0;
+				top: 0;
+				z-index: 10;
+				display: none;
+			}
+			
+			.swiper:hover .change{
+				display: block;
+			}
+			
+			
+			#c1:checked ~ .all_img .img1,
+			#c2:checked ~ .all_img .img2,
+			#c3:checked ~ .all_img .img3{
+				z-index: 1;
+			}
+			.change label{
+				width: 50px;
+				height: 50px;
+				display: none;
+			}
+			
+			.left1{
+				background: url(../img/left.png);
+				background-size: 100% 100%;
+				position: absolute;
+				left:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			.left2{
+				background: url(../img/left.png);
+				background-size: 100% 100%;
+				position: absolute;
+				left:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			.left3{
+				background: url(../img/left.png);
+				background-size: 100% 100%;
+				position: absolute;
+				left:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			.right1{
+				background: url(../img/right.png);
+				background-size: 100% 100%;
+				position: absolute;
+				right:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			.right2{
+				background: url(../img/right.png);
+				background-size: 100% 100%;
+				position: absolute;
+				right:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			.right3{
+				background: url(../img/right.png);
+				background-size: 100% 100%;
+				position: absolute;
+				right:10px;
+				top:50%;
+				margin-top:-25px;
+			}
+			
+			#c1:checked ~ .change .left3,
+			#c1:checked ~ .change .right2,
+			#c2:checked ~ .change .left1,
+			#c2:checked ~ .change .right3,
+			#c3:checked ~ .change .left2,
+			#c3:checked ~ .change .right1{
+				display: block;
+			}
+			.all_btn{
+				width: 150px;
+				height: 25px;
+				position: absolute;
+				left: 50%;
+				margin-left: -75px;
+				bottom: 5px;
+				z-index: 100;
+				display: block;
+				
+			}
+			
+			.all_btn label{
+				margin: 5px;
+				width: 40px;
+				height: 15px;
+				background: rgba(0,0,0,0.2);
+				float: left;
+			}
+			
+			@media only screen and (max-width:640px ) {/*响应方式*/
+				.all_img{
+					width: 100vw;
+					height: 280px;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+				.img1,.img2,.img3{
+					background-size: 100%;
+				}
+			}
+			
