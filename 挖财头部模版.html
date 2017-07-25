@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/头部.css"/>
+	</head>
+	<body>
+		
+		<div id="abc"></div>
+		<div id="cc"></div>
+
+		
+		
+		
+		<script type="text/javascript">
+		
+			var Header = {
+				createNew:function(){
+					var header = {};
+					header.logoSrc = "img/logo.png";
+					header.navName = ["我要赚钱","挖财社区","我的挖财"];
+					header.createContent = function(parentNameId){
+						var newDiv = document.createElement("div");
+						var parentNode = document.getElementById(parentNameId);
+						newDiv.className = "nav";
+						var str = "";
+						for (var i = 0;i<header.navName.length;i++) {
+							str = str + '<div class="navtitle zq">'+header.navName[i]+'</div>';
+						};
+						
+						newDiv.innerHTML = '<div class="content">'+
+						'<input type="radio" checked="checked" name="kg" id="open" value="" />'+
+						'<input type="radio" name="kg" id="close" value="" />'+
+						'<label class="icon lopen" for="open">&#xe6da;</label>'+
+						'<label class="icon lclose" for="close">&#xe6db;</label>'+
+						'<div class="logo"><img src="img/logo.png" /></div>'+
+						'<div class="navlist">'+
+							'<div class="navtitle home">首页</div>'+
+							str+
+							'<div class="navtitle login">登录</div>'+
+							'<div class="navtitle register">注册</div>'+
+						'</div>'+
+						'</div>';
+						
+						parentNode.appendChild(newDiv);
+					}
+					return header;
+				}
+			}
+			
+			
+			var header1 = Header.createNew();
+			//console.log(header1);
+			
+			header1.createContent("abc");
+			
+			
+			
+			
+		</script>
+
+	</body>
+</html>

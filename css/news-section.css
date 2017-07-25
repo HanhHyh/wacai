@@ -1,0 +1,48 @@
+.news-section {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.new {
+	float: left;
+	width: 33%;
+}
+
+.new a:hover {
+	color: #fa5546;
+}
+
+.news-section .new-title {
+	position: relative;
+	height: 52px;
+	padding-top: 12px;
+}
+
+.news-section .new-title h4 {
+	display: inline-block;
+	border-bottom: 3px solid #e5e5e5;
+	color: #333;
+	font-size: 16px;
+}
+
+.news-section .new-title a {
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	float: right;
+}
+
+.news-section ul {
+	list-style: none;
+}
+
+.news-section ul li {
+	padding-top: 5px;
+}
+
+.news-section ul li a {
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+}

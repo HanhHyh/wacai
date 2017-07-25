@@ -1,0 +1,363 @@
+.i-icon {
+	font-family: 'iconfont';
+	font-style: normal;
+	position: absolute;
+	right: 0px;
+	font-size: 43px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+
+.prod-section {
+	position: relative;
+	width: 1000px;
+	height: 441px;
+	margin: 0 auto;
+	padding: 30px 0 30px 0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.prod-section .pleft {
+	position: relative;
+	width: 184px;
+	height: 380px;
+	display: inline-block;
+	background-color: #FA5546;
+}
+
+.prod-section .pleft:after {
+	content: "";
+	position: absolute;
+	right: -6px;
+	top: 5px;
+	bottom: 5px;
+	width: 6px;
+	background: #fa5546;
+	opacity: .3;
+}
+
+.prod-section .pleft .pleft-title {
+	position: relative;
+	width: 150px;
+	height: 37px;
+	color: white;
+	line-height: 37px;
+	left: 20px;
+	top: 15px;
+}
+
+.prod-section .pleft .pleft-title h3 {
+	display: inline-block;
+	font-size: 23px;
+}
+
+.prod-section .pleft .pleft-title i {
+	display: inline-block;
+}
+
+.prod-section .pleft .top {
+	position: relative;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 12px;
+	left: 20px;
+}
+
+.prod-section .pleft .app-list {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.prod-section .pleft .app-list .app-item p {
+	padding-top: 12px;
+	color: #c44338;
+	font-size: 12px;
+	width: 144px;
+	height: 42px;
+}
+
+.prod-section .pleft .app-list .app-item .btn {
+	width: 144px;
+	height: 34px;
+	background: white;
+	color: #fa5546;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 13px;
+	transition: background .2s;
+}
+
+.prod-section .pleft .app-list .app-item .btn:hover {
+	background: #C84438;
+	color: white;
+}
+
+.prod-section .pright {
+	position: relative;
+	top: -65px;
+	display: inline-block;
+	width: 810px;
+	height: 380px;
+}
+
+.prod-section .pright .pright-title {
+	position: relative;
+	height: 36px;
+	padding-left: 26px;
+	line-height: 1.3;
+}
+
+.prod-section .pright .pright-title h4 {
+	font-weight: 400;
+	font-size: 20px;
+	color: #333;
+}
+
+.prod-section .pright .pright-title a {
+	position: absolute;
+	right: 0;
+	top: 11px;
+	color: #666;
+	text-decoration: none;
+	font-size: 80%;
+}
+
+.prod-section .pright .finance-content ul {
+	height: 344px;
+	list-style: none;
+}
+
+.prod-section .pright .finance-content ul li {
+	position: relative;
+	float: left;
+	width: 270px;
+	height: 334px;
+	padding: 10px 29px 0 30px;
+}
+
+.prod-section .pright .finance-content h5 {
+	height: 40px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+
+.prod-section .pright .finance-content .tag-container {
+	height: 16px;
+	text-align: center;
+}
+
+.prod-section .pright .finance-content .tag-container .tag {
+	display: inline-block;
+	font-size: 12px;
+	height: 16px;
+	padding: 0 3px;
+	background: #3aa2fa;
+	color: #fff;
+	font-style: normal;
+	line-height: 16px;
+}
+
+.prod-section .pright .finance-content ul li .param {
+	position: relative;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	height: auto;
+	border-bottom: 1px dashed #e9e9e9;
+}
+
+.prod-section .pright .finance-content ul li .param .yields {
+	color: #f55136;
+	font-size: 24px;
+}
+
+.prod-section .pright .finance-content ul li .param .yields small,
+.prod-section .pright .finance-content ul li .param .time-limit small {
+	font-size: 14px;
+}
+
+.prod-section .pright .finance-content ul li .param .time-limit {
+	position: absolute;
+	right: 0;
+	font-size: 18px;
+	line-height: 35px;
+}
+
+.prod-section .pright .finance-content ul li .param p {
+	font-size: 12px;
+	color: #999;
+}
+
+.prod-section .pright .finance-content ul li .param p .r {
+	float: right;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.prod-section .pright .finance-content ul li .info {
+	height: 63px;
+	padding-top: 7px;
+	font-size: 12px;
+}
+
+.prod-section .pright .finance-content ul li .info p {
+	line-height: 28px;
+}
+
+.prod-section .pright .finance-content ul li .info .cl-999 {
+	color: #999;
+}
+
+.prod-section .pright .finance-content ul li .info p .fr {
+	float: right;
+}
+
+.prod-section .pright .finance-content ul li .tag-list {
+	height: 39px;
+	margin-bottom: 30px;
+	border-top: 1px dashed #e9e9e9;
+	border-bottom: 1px dashed #e9e9e9;
+	color: #62b7f1;
+	line-height: 39px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.prod-section .pright .finance-content ul li a {
+	text-decoration: none;
+}
+
+.prod-section .pright .finance-content ul li .llgm {
+	width: 124px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px solid #ff4f3f;
+	color: #ff4f3f;
+	line-height: 28px;
+	transition: background .5s, color .5s;
+}
+
+.prod-section .pright .finance-content ul li .llgm:hover {
+	background: #fa5546;
+	color: #fff;
+}
+
+.prod-section #pleft02 {
+	background-color: #3AB28C;
+	float: left;
+}
+
+.prod-section #pleft02:after {
+	background: #C4E8DD;
+}
+
+.prod-section .pleft .app-list .app-item .p1 {
+	color: #197d5f;
+}
+
+.prod-section .pleft .app-list .app-item #btn1 {
+	color: #3ab28c;
+}
+
+.prod-section .pleft .app-list .app-item #btn1:hover {
+	background: #2E8F70;
+	color: white;
+}
+
+.prod-section #pright02 {
+	position: relative;
+	top: 0px;
+}
+
+.prod-section .pright #bg2 {
+	position: absolute;
+	z-index: -1;
+	opacity: 0.1;
+}
+
+.prod-section .pright h1 {
+	height: 76px;
+	padding-top: 75px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.prod-section .pright h3 {
+	font-size: 18px;
+	text-align: center;
+	position: relative;
+	top: 70px;
+	color: black;
+}
+
+.prod-section .pright .ksjz {
+	position: relative;
+	top: 150px;
+	width: 124px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+	line-height: 30px;
+	border-radius: 3px;
+	border: 1px solid #3ab28c;
+	color: #3ab28c;
+	line-height: 28px;
+	transition: background .5s, color .5s;
+}
+
+.prod-section .pright a {
+	text-decoration: none;
+}
+
+.prod-section .pright .ksjz:hover {
+	color: white;
+	background: #3ab28c;
+}
+
+.prod-section .pright #bg3 {
+	position: relative;
+	top: 65px;
+}
+
+.prod-section #pleft03 {
+	background-color: #4C9AEA;
+	/*position: relative;
+	top: -310px;*/
+	float: left;
+}
+
+.prod-section #pleft03:after {
+	background: #C1E1F6;
+}
+
+.prod-section .pleft .app-list .app-item .p2 {
+	color: #1974b0;
+}
+
+.prod-section .pleft .app-list .app-item #btn2 {
+	color: #319ae0;
+}
+
+.prod-section .pleft .app-list .app-item #btn2:hover {
+	background: #3D7BBB;
+	color: white;
+}

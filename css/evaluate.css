@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('iconfont.eot');
+	src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont.woff') format('woff'), url('iconfont.ttf') format('truetype'), url('iconfont.svg#iconfont') format('svg');
+}
+
+.evaluate {
+	height: 70px;
+	padding-top: 15px;
+	background: #f7f7f7;
+	color: #aba7a2;
+	position: relative;
+	display: block;
+}
+
+.layout {
+	width: 1000px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.evaluate li {
+	float: left;
+	width: 25%;
+	font-size: 10px;
+}
+
+.evaluate i {
+	float: left;
+	margin: 0 16px 0 50px;
+}
+
+.g-icon {
+	font-family: 'iconfont';
+	display: inline-block;
+	vertical-align: middle;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.g-icon-evaluate-04 {
+	font-size: 46px;
+	width: 40px;
+	height: 40px;
+}
+
+.evaluate strong {
+	display: block;
+	font-weight: 400;
+	color: #66625e;
+	font-size: 16px;
+}

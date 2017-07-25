@@ -1,0 +1,49 @@
+.footer-contnet {
+	height: 215px;
+	background: #252525;
+}
+
+.ftc-layout {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.ft-logo {
+	float: left;
+	width: 172px;
+	padding-top: 85px;
+}
+
+.ft-middle {
+	float: left;
+	padding-top: 56px;
+	color: #777;
+}
+
+.ft-middle p {
+	font-size: 12px;
+	margin-bottom: 10px;
+	font-weight: 400px;
+}
+
+.ft-follow {
+	position: absolute;
+	right: 0;
+	top: 60px;
+	color: #818181;
+}
+
+.ft-follow div {
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.ft-follow div:nth-child(1) {
+	margin-right: 20px;
+}
+
+.ft-follow div:nth-child(3) {
+	margin-left: 40px;
+}

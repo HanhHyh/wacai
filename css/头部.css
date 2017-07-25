@@ -1,24 +1,34 @@
 @font-face {
-  font-family: 'iconfont';  /* project id 224471 */
-  src: url('//at.alicdn.com/t/font_hbvb1q21erazto6r.eot');
-  src: url('//at.alicdn.com/t/font_hbvb1q21erazto6r.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_hbvb1q21erazto6r.woff') format('woff'),
-  url('//at.alicdn.com/t/font_hbvb1q21erazto6r.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_hbvb1q21erazto6r.svg#iconfont') format('svg');
+	font-family: 'iconfont';
+	/* project id 224471 */
+	src: url('//at.alicdn.com/t/font_hbvb1q21erazto6r.eot');
+	src: url('//at.alicdn.com/t/font_hbvb1q21erazto6r.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_hbvb1q21erazto6r.woff') format('woff'), url('//at.alicdn.com/t/font_hbvb1q21erazto6r.ttf') format('truetype'), url('//at.alicdn.com/t/font_hbvb1q21erazto6r.svg#iconfont') format('svg');
 }
-.icon{
+
+.icon {
 	font-family: 'iconfont';
 }
-*{
-	margin: 0;padding: 0;box-sizing: border-box;font-family: "微软雅黑";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "微软雅黑";
 }
+
+body {
+	overflow-x: hidden;
+}
+
+
 /*这是头部*/
-.header{
-	background-color:#f2f2f2 ;
+
+.header {
+	background-color: #f2f2f2;
 	box-shadow: 0 1px 1px #ccc;
 }
 
-.header .content{
+.header .content {
 	width: 1000px;
 	margin: 0 auto;
 	color: #999;
@@ -26,44 +36,53 @@
 	line-height: 30px;
 	font-size: 10px;
 }
-.hleft{
+
+.hleft {
 	float: left;
 }
-.hright{
+
+.hright {
 	float: right;
 }
-.header .hright .title{
+
+.header .hright .title {
 	display: inline-block;
 	padding: 0 12px;
 }
-.xz{
+
+.xz {
 	position: relative;
-	
 }
-.xz:after{/*挖财社区旁边的箭头*/
+
+.xz:after {
+	/*挖财社区旁边的箭头*/
 	content: "";
 	width: 0;
 	height: 0;
 	border-width: 5px 5px 5px 5px;
-	border-style:solid solid solid solid;
-	position: absolute;/*绝对定位*/
+	border-style: solid solid solid solid;
+	position: absolute;
+	/*绝对定位*/
 	border-color: red transparent transparent transparent;
 	right: 0;
 	top: 40%;
 }
 
-.xz:hover:after{/*hover状态时的箭头*/
+.xz:hover:after {
+	/*hover状态时的箭头*/
 	content: "";
 	width: 0;
 	height: 0;
 	border-width: 5px 5px 5px 5px;
-	border-style:solid solid solid solid;
-	position: absolute;/*绝对定位*/
+	border-style: solid solid solid solid;
+	position: absolute;
+	/*绝对定位*/
 	border-color: transparent transparent red transparent;
 	top: 20%;
 	right: 0;
 }
-.hright .xz:before{
+
+.hright .xz:before {
 	content: "";
 	width: 50px;
 	height: 20px;
@@ -72,7 +91,7 @@
 	z-index: 12;
 }
 
-.hright .xz .kk{
+.hright .xz .kk {
 	display: none;
 	width: 280px;
 	height: 390px;
@@ -86,20 +105,19 @@
 	z-index: 11;
 }
 
-.hright .kk .kcontent{
+.hright .kk .kcontent {
 	height: 60px;
 	width: 260px;
 	margin: 0 auto;
 	position: relative;
-	
 }
 
 .hright .kk .kcontent .left,
-.hright .kk .kcontent .right{
+.hright .kk .kcontent .right {
 	display: inline-block;
-	
 }
-.kk .kcontent .left{
+
+.kk .kcontent .left {
 	margin: 10px 0 0 0;
 	width: 40px;
 	height: 40px;
@@ -107,87 +125,102 @@
 	overflow: hidden;
 	position: relative;
 }
-.kk .kcontent .right{
+
+.kk .kcontent .right {
 	width: 200px;
 	float: right;
 }
-.kcontent .left img{
+
+.kcontent .left img {
 	position: absolute;
 	width: 40px;
 }
-.kcontent .left .i1{
+
+.kcontent .left .i1 {
 	top: 0;
 }
-.kcontent .left .i2{
+
+.kcontent .left .i2 {
 	top: -60px;
 }
-.kcontent .left .i3{
+
+.kcontent .left .i3 {
 	top: -120px;
 }
-.kcontent .left .i4{
+
+.kcontent .left .i4 {
 	top: -180px;
 }
-.kcontent .left .i5{
+
+.kcontent .left .i5 {
 	top: -240px;
 }
-.kcontent .left .i6{
+
+.kcontent .left .i6 {
 	bottom: 0;
 }
 
-
-.xz:hover .kk{
+.xz:hover .kk {
 	display: block;
 }
 
 
 /*这是导航*/
-.nav input{
+
+.nav input {
 	display: none;
 }
-.nav label{
+
+.nav label {
 	display: none;
 }
-.nav{
+
+.nav {
 	width: 100%;
 }
-.nav .content{
+
+.nav .content {
 	height: 76px;
 	margin: 0 auto;
 	width: 1000px;
 	position: relative;
 }
 
-.nav .content .logo{
+.nav .content .logo {
 	position: relative;
 	height: 76px;
 	display: inline-block;
 }
 
-.nav .content .logo img{
+.nav .content .logo img {
 	position: absolute;
 	height: 40px;
 	top: 50%;
-	margin-top:-20px ;
+	margin-top: -20px;
 }
 
-.nav .navlist{
+.nav .navlist {
 	width: 750px;
 	display: inline-block;
 	position: absolute;
 	top: 50%;
 	margin-top: -10px;
 	right: 0;
-	
 }
-.nav .navlist .navtitle{
+
+.nav .navlist .navtitle {
 	display: inline-block;
 	padding: 0 10px 0 10px;
 }
-.navlist .home,.navlist .zq,.navlist .sq,.navlist .wc{
+
+.navlist .home,
+.navlist .zq,
+.navlist .sq,
+.navlist .wc {
 	color: #666;
 }
 
-.navlist .login{
+.navlist .login {
 	position: absolute;
 	right: 120px;
 	font-size: 14px;
@@ -195,7 +228,8 @@
 	height: 30px;
 	line-height: 30px;
 }
-.navlist .register{
+
+.navlist .register {
 	width: 100px;
 	border: 1px solid red;
 	border-radius: 5px;
@@ -206,19 +240,26 @@
 	position: absolute;
 	font-size: 14px;
 	color: red;
+	transition: background-color .5s, color .5s;
+}
+
+.navlist .register:hover {
+	color: white;
+	background-color: #fa5546;
 }
 
 
 /*手机端导航*/
+
 @media only screen and (max-width: 640px) {
-	.header{
+	.header {
 		display: none;
 	}
-	.nav .content{
+	.nav .content {
 		width: 100vw;
 		box-shadow: 0 1px 1px #666;
 	}
-	.nav .navlist{
+	.nav .navlist {
 		top: 130%;
 		float: right;
 		right: 10px;
@@ -229,57 +270,50 @@
 		border-radius: 10px;
 		border: 1px solid #666;
 	}
-	
-	.nav .logo{
+	.nav .logo {
 		padding: 10px;
 	}
-	.nav label{
-	position: absolute;
-	display: block;
-	width: 50px;
-	height: 50px;
-	right: 15px;
-	top: 50%;
-	margin-top: -25px;
-	text-align: center;
-	line-height: 50px;
-	font-size:30px;
+	.nav label {
+		position: absolute;
+		display: block;
+		width: 50px;
+		height: 50px;
+		right: 15px;
+		top: 50%;
+		margin-top: -25px;
+		text-align: center;
+		line-height: 50px;
+		font-size: 30px;
 	}
-	
 	.nav .navlist .home,
 	.nav .navlist .zq,
 	.nav .navlist .sq,
 	.nav .navlist .wc,
 	.nav .navlist .login,
-	.nav .navlist .register{
+	.nav .navlist .register {
 		color: white;
 		padding: 10px 0 10px 0;
 		margin: 1px 0 1px 0;
 		display: block;
 		position: static;
 		text-align: center;
-		border-bottom:1px solid #666 ;
+		border-bottom: 1px solid #666;
 		height: 40px;
 		line-height: 100%;
-		font-size:16px ;
+		font-size: 16px;
 		text-shadow: 1px 1px 1px black;
 	}
-	
-	.nav .navlist .register{
+	.nav .navlist .register {
 		position: static;
 		border: none;
 		margin: 0 auto;
 	}
-	
-	#open:checked~ .lopen,#close:checked~ .lclose{
-	display: none;
-	
+	#open:checked~ .lopen,
+	#close:checked~ .lclose {
+		display: none;
 	}
-	#close:checked~ .navlist{
-	display: block;
-	z-index: 11;
+	#close:checked~ .navlist {
+		display: block;
+		z-index: 11;
 	}
-
-
-	
 }

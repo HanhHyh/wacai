@@ -1,0 +1,44 @@
+@media only screen and (max-width: 640px) {
+	.prod-section .pright,
+	.evaluate,
+	.bbs-section,
+	.partner-section,
+	.news-section,
+	.footer-evaluate,
+	.footer-contnet,
+	.ftb-right {
+		display: none;
+	}
+	body {
+		overflow-x: hidden;
+	}
+	.prod-section {
+		padding: 0;
+		width: 100vw;
+		height: 160px;
+	}
+	.prod-section .pleft {
+		width: 100vw;
+		height: inherit;
+		position: relative;
+		padding-top: 8%;
+	}
+	.prod-section .pleft .app-list {
+		position: absolute;
+		bottom: 30%;
+		left: 55%;
+	}
+	.footer-bottom {
+		width: 100vw;
+	}
+	.footer-bottom .ftb-left {
+		width: 100vw;
+		text-align: center;
+	}
+	/*.footer-bottom .ftb-left:after{
+		content: "";
+		height: 0;
+		display: block;
+		clear: both;
+	}*/
+}

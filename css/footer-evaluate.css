@@ -1,0 +1,46 @@
+.footer-evaluate {
+	height: 195px;
+	padding-top: 40px;
+	background: #f7f7f7;
+	color: #aba7a2;
+	position: relative;
+	display: block;
+}
+
+.layout {
+	width: 1000px;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.footer-evaluate li {
+	float: left;
+	width: 25%;
+	font-size: 10px;
+	text-align: center;
+}
+
+.footer-evaluate i {
+	margin-bottom: 24px;
+}
+
+.g-icon {
+	font-family: 'iconfont';
+	display: inline-block;
+	vertical-align: middle;
+	font-style: normal;
+	font-size: 40px;
+}
+
+.g-icon-footer-evaluate-04 {
+	font-size: 46px;
+	width: 40px;
+	height: 40px;
+}
+
+.footer-evaluate strong {
+	display: block;
+	font-weight: 400;
+	color: #66625e;
+	font-size: 16px;
+}

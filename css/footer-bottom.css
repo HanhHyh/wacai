@@ -1,0 +1,31 @@
+.footer-bottom {
+	height: 80px;
+	background: #1b1b1b;
+}
+
+.ftb-layout {
+	margin: 0 auto;
+	width: 1000px;
+	position: relative;
+	font-size: 12px;
+	color: #818181;
+}
+
+.footer-bottom .ftb-left {
+	line-height: 80px;
+	float: left;
+	height: 80px;
+}
+
+.ftb-right {
+	float: right;
+	text-align: right;
+}
+
+.ftb-right p {
+	padding: 5px 0;
+}
+
+.ftb-right img {
+	margin-left: 5px;
+}
